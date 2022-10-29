@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("div").css("margin","3%");
+    $("div").width("100px");
+    $("div").height("100px");
+    $("div").css("background-color","red");
+    $("h2").css("margin-left","3%");
+    $("button").css("margin-left","3%");
+    $("button").click(function(){
+        $("div").hide();
+    });
+});
